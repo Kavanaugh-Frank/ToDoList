@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Create Item</h1>
+
+    <form action="/createNew" method="post">
+        <label for="titleInp">Title</label>
+        <input type="text" id="titleInp" name="title">
+
+        <label for="contentInp">Content</label>
+        <textarea name="contents" id="contentIp" cols="30" rows="10"></textarea>
+
+        <button type="submit">Create Item</button>
+    </form>
+    <a href="/">Back</a>
+</body>
+</html>
